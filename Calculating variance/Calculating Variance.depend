@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1583190916 source:c:\users\brats\documents\engg1003\codeblocks\new folder\calculating variance\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
