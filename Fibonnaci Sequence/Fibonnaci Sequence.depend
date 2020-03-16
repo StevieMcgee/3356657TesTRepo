@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1583800127 source:u:\test\fibonnaci sequence\main.c
+	<stdio.h>
+	<stdlib.h>
+

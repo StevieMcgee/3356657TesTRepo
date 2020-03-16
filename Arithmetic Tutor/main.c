@@ -40,25 +40,25 @@ int addition() {
 
     while (c == d){
 
-    printf("Designate a number as maximum\n");
-    scanf("%d", &maximum);
-    a = rand() % maximum + 1;
-    b = rand() % maximum + 1;
-    c = a + b;
-    printf("What is a + b? \n");
-    scanf("%d", &d);
+        printf("Designate a number as maximum\n");
+        scanf("%d", &maximum);
+        a = rand() % maximum + 1;
+        b = rand() % maximum + 1;
+        c = a + b;
+        printf("What is a + b? \n");
+        scanf("%d", &d);
 
-    if (c == d){
+        if (c == d){
 
-    printf("Correct\n");
-    printf("\n");
-    counter += 1;
+            printf("Correct\n");
+            printf("\n");
+            counter += 1;
 
-} else{
-    printf("Incorrect!!! the correct answer is %d\n", c);
-    printf("The Number of correct answers is: %d\n", counter);
+        } else{
+            printf("Incorrect!!! the correct answer is %d\n", c);
+            printf("The Number of correct answers is: %d\n", counter);
+        }
     }
-}
 
 }
 
@@ -66,74 +66,74 @@ int subtraction() {
 
     while (c == d){
 
-    printf("Designate a number as maximum\n");
-    scanf("%d", &maximum);
-    a = rand() % maximum + 1;
-    b = rand() % maximum + 1;
-    c = a - b;
-    printf("What is a + b? \n");
-    scanf("%d", &d);
+        printf("Designate a number as maximum\n");
+        scanf("%d", &maximum);
+        a = rand() % maximum + 1;
+        b = rand() % maximum + 1;
+        c = a - b;
+        printf("What is a + b? \n");
+        scanf("%d", &d);
 
-    if (c == d){
+        if (c == d){
 
-    printf("Correct\n");
-    printf("\n");
-    counter += 1;
+            printf("Correct\n");
+            printf("\n");
+            counter += 1;
 
-} else{
-    printf("Incorrect!!! the correct answer is %d\n", c);
-    printf("The Number of correct answers is: %d\n", counter);
+        } else{
+            printf("Incorrect!!! the correct answer is %d\n", c);
+            printf("The Number of correct answers is: %d\n", counter);
+        }
     }
-}
 }
 
 int division() {
 
     while (c == d){
 
-    printf("Designate a number as maximum\n");
-    scanf("%d", &maximum);
-    a = rand() % maximum + 1;
-    b = rand() % maximum + 1;
-    c = a / b;
-    printf("What is a + b? \n");
-    scanf("%d", &d);
+        printf("Designate a number as maximum\n");
+        scanf("%d", &maximum);
+        a = rand() % maximum + 1;
+        b = rand() % maximum + 1;
+        c = a / b;
+        printf("What is a + b? \n");
+        scanf("%d", &d);
 
-    if (c == d){
+        if (c == d){
 
-    printf("Correct\n");
-    printf("\n");
-    counter += 1;
+            printf("Correct\n");
+            printf("\n");
+            counter += 1;
 
-} else{
-    printf("Incorrect!!! the correct answer is %d\n", c);
-    printf("The Number of correct answers is: %d\n", counter);
+        } else{
+            printf("Incorrect!!! the correct answer is %d\n", c);
+            printf("The Number of correct answers is: %d\n", counter);
+        }
     }
-}
 }
 
 int multiplication() {
 
     while (c == d){
 
-    printf("Designate a number as maximum\n");
-    scanf("%d", &maximum);
-    a = rand() % maximum + 1;
-    b = rand() % maximum + 1;
-    c = a * b;
-    printf("What is a + b? \n");
-    scanf("%d", &d);
+        printf("Designate a number as maximum\n");
+        scanf("%d", &maximum);
+        a = rand() % maximum + 1;
+        b = rand() % maximum + 1;
+        c = a * b;
+        printf("What is a + b? \n");
+        scanf("%d", &d);
 
-    if (c == d){
+        if (c == d){
 
-    printf("Correct\n");
-    printf("\n");
-    counter += 1;
+            printf("Correct\n");
+            printf("\n");
+            counter += 1;
 
-} else{
-    printf("Incorrect!!! the correct answer is %d\n", c);
-    printf("The Number of correct answers is: %d\n", counter);
+        } else{
+            printf("Incorrect!!! the correct answer is %d\n", c);
+            printf("The Number of correct answers is: %d\n", counter);
+        }
     }
-}
 }
 

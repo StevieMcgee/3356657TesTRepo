@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1583797203 source:u:\test\arithmetic series\main.c
+	<stdio.h>
+	<stdlib.h>
+
